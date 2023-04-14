@@ -22,13 +22,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - Open terminal.
 - Run the following command.
 ```sh
-cd AWACRADIO_ROOT_FOLDER
+cd {AWACRADIO_ROOT_FOLDER}
+composer install
 php artisan serve
 ```
 - Open another terminal
 - Run the following command.
 ```sh
-cd AWACRADIO_ROOT_FOLDER
+cd {AWACRADIO_ROOT_FOLDER}
 npm install
 npm run watch
 ```
