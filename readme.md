@@ -16,9 +16,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Installation
 
-- Import database from `database/anywhereanycity_music.sql`.
-- Rename .env.example to .env
-- Update database details in the .env file
 - Open terminal.
 - Run the following command.
 ```sh
@@ -57,3 +54,7 @@ https://tinyurl.com/29qvnbjr
 - Step 6:
 https://tinyurl.com/2xtlq9tw
 ![alt text](https://awesomescreenshot.s3.amazonaws.com/image/1972356/38950702-78c95f52ee820b432f7f492a43c5b749.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230414T091838Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=d8e5d3858239fd5569f4f6834c61945c8855d496b20931ac52254aef93c08621)
+
+- That's it!!! You can good to go with `http://localhost:8000`
+
+> Note: Database of dummy records: `database/anywhereanycity_music.sql`.
