@@ -302,7 +302,7 @@ const router = new VueRouter({
                             path: "general",
                             component: () =>
                                 import(
-                                    /* webpackChunkName: "admin" */ "./components/admin/pages/appearance/general.vue"
+                                    /* webpackChunkName: "admin" */ "./components/admin/pages/appearance/General.vue"
                                 ),
                             name: "appearance.general"
                         },
@@ -437,7 +437,7 @@ const router = new VueRouter({
                     path: "songs",
                     component: () =>
                         import(
-                            /* webpackChunkName: "artist" */ "./components/artist/pages/songs.vue"
+                            /* webpackChunkName: "artist" */ "./components/artist/pages/Songs.vue"
                         ),
                     name: "artist.songs"
                 },
@@ -671,7 +671,7 @@ const router = new VueRouter({
                             path: "my-songs",
                             component: () =>
                                 import(
-                                    /* webpackChunkName: "library" */ "./components/player/pages/library/pages/songs.vue"
+                                    /* webpackChunkName: "library" */ "./components/player/pages/library/pages/Songs.vue"
                                 ),
                             name: "library.my-songs"
                         },
